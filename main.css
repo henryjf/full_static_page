@@ -1,0 +1,21 @@
+img {
+	width: 700px;
+	height: 200px;
+}
+
+.subtitle5{
+	border: 1px solid gray;
+	text-align: center;
+}
+.subtitle25{
+	border: 1px solid red;
+	text-align: center;
+}
+.list{
+	border: 1px solid gray;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
