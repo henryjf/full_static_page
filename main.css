@@ -36,10 +36,11 @@ span {
 h2 {
 	position: absolute;
 	top: 400px
-	left: 200px;
+	right: 200px;
 	color: white;
 	border: 1px solid red;
-	margin: auto;
+	/*margin: auto;*/
+	
 
 }
 
