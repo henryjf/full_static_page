@@ -3,17 +3,35 @@ img {
 	height: 200px;
 }
 
+span {
+	font-size: 400%;
+}
+
+
 .subtitle5{
 	border: 1px solid gray;
 	text-align: center;
+	float: left;
+	margin:5px;
+	
 }
 .subtitle25{
-	border: 1px solid red;
-	text-align: center;
-}
-.list{
 	border: 1px solid gray;
 	text-align: center;
+	float:left;
+	margin: 5px;
+}
+
+.subtitle45{
+	border: 1px solid gray;
+	text-align: center;
+	float: left;
+	margin: 5px;
+}
+.list{
+	border-top: 1px solid gray;
+	text-align: center;
+	margin: 0;
 }
 
 ul{
