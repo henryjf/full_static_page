@@ -1,3 +1,9 @@
+.doc {
+	padding-left: 50px;
+	padding-right: 150px;
+	margin-right: 150px;
+}
+
 img {
 	width: 700px;
 	height: 200px;
@@ -7,12 +13,22 @@ span {
 	font-size: 400%;
 }
 
+img {
+
+}
+
+h2 {
+	font-size: 35px; 
+}
 
 .subtitle5{
 	border: 1px solid gray;
 	text-align: center;
 	float: left;
 	margin:5px;
+	margin-left: 20px;
+
+
 
 }
 .subtitle25{
@@ -37,4 +53,10 @@ span {
 
 ul{
 	list-style: none;
+}
+
+.paragraph {
+	margin-right: 325px;
+	border: 1px solid red;
+	float: left;
 }
