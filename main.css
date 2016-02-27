@@ -12,9 +12,10 @@ label{
 	border: 1px solid red;
 }
 .doc {
-	padding-left: 50px;
+	/*padding-left: 50px;
 	padding-right: 50px;
-	margin-right: 10px;
+	margin-right: 10px;*/
+	display: inline-block;
 }
 
 img {
@@ -46,6 +47,10 @@ h2 {
 
 h2 {
 	font-size: 35px; 
+}
+
+.subtitle {
+	display: inline-block;
 }
 
 .subtitle5{
@@ -84,8 +89,10 @@ ul{
 
 .paragraph {
 	border: 1px solid red;
-	margin-left:30px;
+	margin-left:2px;
 	/*float: left;*/
+	display:inline-block;
+	float:left;
 }
 .p1 {
 	border: 1px solid green;
@@ -93,16 +100,16 @@ ul{
 }
 .p2 {
 	border: 1px solid green;
-	float: right;
+	/*float: right;*/
 	/*margin-right:600px;*/
 }
 .p3 {
 	border: 1px solid green;
-	float: left;
+	/*float: left;*/
 }
 .p4 {
 	border: 1px solid green;
-	float: left;
+	/*float: left;*/
 }
 
 footer { 
