@@ -1,116 +1,96 @@
 header {
 	margin-top: 10px;
-	margin-left: 10px
+	margin-left: 10px;
 	border: 1px solid red;
 }
 
 label{
-	margin-left:20px;
-	/*position:relative;*/
-	left: 130px;
-	bottom: 20px;
+	margin-left:10px;
 	border: 1px solid red;
 }
-.doc {
-	/*padding-left: 50px;
-	padding-right: 50px;
-	margin-right: 10px;*/
-	display: inline-block;
-}
 
-img {
-	width: 1000px;
+img{
+	width: 1200px;
 	height: 300px;
-	bottom: 50px;
-	/*position: relative;*/
-	bottom: 50px;
-	left: 75px;
+	border:1px soild red;
 }
 
-/*.image {
-	position: absolute;*/
-}
-span {
-	font-size: 400%;
+h2{
+	color:white;
+	position:relative;
+	top: 200px;
+	text-align: center;
 }
 
-h2 {
-	position: absolute;
-	top: 400px
-	right: 200px;
-	color: white;
+#plans {
+	width: 800px;
 	border: 1px solid red;
-	/*margin: auto;*/
-	
-
 }
 
-h2 {
-	font-size: 35px; 
+#plans ul{
+	list-style-type: none;
 }
 
-.subtitle {
-	display: inline-block;
-}
+	.plan5 {
+		width:250px;
+		border: 1px solid red;
+		float:left;
+	}
 
-.subtitle5{
-	border: 1px solid gray;
-	text-align: center;
-	float: left;
-	margin:5px;
-	margin-left: 15px;
+		.plan5head{
+			background-color: #45874b;
+			color: white;
+			text-align: center;
+		}
+
+			.plan5 span{
+				font-size:75px;
+		}
+
+		.plan5list{ 
+			text-align: center;
+		}
+
+	.plan25{
+		width: 250px;
+		border: 1px solid red;
+		float:left;
+	}
+
+		.plan25head {
+			background-color: #34447f;
+			color: white;
+			text-align: center;
+		}
+
+			.plan25 span{
+				font-size:75px;
+			}
+
+		.plan25list {
+			text-align: center;
+		}
+
+	.plan45{
+		width: 250px;
+		border: 1px solid red;
+		float:left;
+	}
+
+		.plan45head {
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+			.plan45 span {
+				font-size: 75px;
+			}
+
+		.plan45list{
+			text-align: center;
+		}
 
 
-
-}
-.subtitle25{
-	border: 1px solid gray;
-	text-align: center;
-	float:left;
-	margin: 5px;
-}
-
-.subtitle45{
-	border: 1px solid gray;
-	text-align: center;
-	float: left;
-	margin: 5px;
-}
-
-.list{
-	border-top: 1px solid gray;
-	text-align: center;
-	margin: 0;
-}
-
-ul{
-	list-style: none;
-}
-
-.paragraph {
-	border: 1px solid red;
-	margin-left:2px;
-	/*float: left;*/
-	display:inline-block;
-	float:left;
-}
-.p1 {
-	border: 1px solid green;
-	margin-right:600px;
-}
-.p2 {
-	border: 1px solid green;
-	/*float: right;*/
-	/*margin-right:600px;*/
-}
-.p3 {
-	border: 1px solid green;
-	/*float: left;*/
-}
-.p4 {
-	border: 1px solid green;
-	/*float: left;*/
-}
 
 footer { 
 	border: 1px solid red;
@@ -118,5 +98,7 @@ footer {
 	margin-left:10px;
 	padding: 30px;
 	text-align: center;
+	/*color: white;
+	background-color: black:;*/
 
 }
