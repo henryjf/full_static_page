@@ -25,6 +25,7 @@ h2{
 #plans {
 	width: 800px;
 	border: 1px solid red;
+	margin: 45px 90px 45px 90px;
 }
 
 #plans ul{
@@ -35,6 +36,7 @@ h2{
 		width:250px;
 		border: 1px solid red;
 		float:left;
+		margin-right:10px;
 	}
 
 		.plan5head{
@@ -55,12 +57,15 @@ h2{
 		width: 250px;
 		border: 1px solid red;
 		float:left;
+		margin-right: 10px;
+		margin-bottom:15px;
 	}
 
 		.plan25head {
 			background-color: #34447f;
 			color: white;
 			text-align: center;
+
 		}
 
 			.plan25 span{
@@ -71,7 +76,7 @@ h2{
 			text-align: center;
 		}
 
-	.plan45{
+	.plan45 {
 		width: 250px;
 		border: 1px solid red;
 		float:left;
@@ -86,11 +91,20 @@ h2{
 				font-size: 75px;
 			}
 
-		.plan45list{
+		.plan45list {
 			text-align: center;
 		}
 
+#textinfo {
+	border: 1px solid red;
+	margin-left: 60px
+	margin-right: 60px;
+}
 
+	.p1{
+		width: 400px
+		border 1px solid red;
+	}
 
 footer { 
 	border: 1px solid red;
