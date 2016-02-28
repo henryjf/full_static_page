@@ -1,186 +1,222 @@
-/** {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}*/
-
+html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
 body{
 	font-family: 'Roboto', sans-serif;
-}
-header {
-	margin: 5px;
-	font-size: 12px;
-	border:1px solid red;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
-label{
-	margin-left:10px;
-	padding-right:15px;
-	border:1px solid red;
-}
-
-img{
-	width: 1000px;
-	height: 300px;
-	position: absolute;
-	top:25px;
-	border:1px solid red;
-}
-
-h2{
-	color:white;
-	position: relative;
-	top: 75px;
-	text-align: center;
-	font-size: 35px;
-	border:1px solid red;
-}
-
-#plans {
-	width: 850px;
-	border: 1px solid red;
-	position: relative;
-	top: 150px;
-	margin: 45px 90px 45px 90px;
-	text-align: center;
-
-}
-
-#plans ul{
-	list-style-type: none;
-}
-
-	.plan5 {
-		width:250px;
-		border: 1px solid red;
-		float:left;
-		margin-right:10px;
+	header {
+		margin: 5px;
+		font-size: 12px;
+		border:1px solid red;
 	}
 
-		.plan5head{
-			background-color: #45874b;
-			color: white;
-			/*text-align: center;*/
-			border: 1px solid #45874b;
-		}
-
-			.plan5 span{
-				font-size:75px;
-		}
-
-		.plan5list{ 
-			text-align: center;
-		}
-		.plan5list ul {
-			font-size: 14px;
-		}
-
-	.plan25{
-		width: 250px;
-		border: 1px solid red;
-		float:left;
-		margin-right: 10px;
-		margin-bottom:15px;
+	label{
+		margin-left:10px;
+		padding-right:15px;
+		border:1px solid red;
 	}
 
-		.plan25head {
-			background-color: #34447f;
-			color: white;
-			text-align: center;
+	img{
+		width: 1000px;
+		height: 300px;
+		position: absolute;
+		top:25px;
+		border:1px solid red;
+	}
+
+	h2{
+		color:white;
+		position: relative;
+		top: 75px;
+		text-align: center;
+		font-size: 35px;
+		border:1px solid red;
+	}
+
+	#plans {
+		width: 850px;
+		/*border: 1px solid red;*/
+		position: relative;
+		top: 150px;
+		margin: 45px 90px 45px 90px;
+		text-align: center;
+
+	}
+
+	#plans ul{
+		list-style-type: none;
+	}
+
+	.planlist ul {
+				font-size: 12px;
+				padding:5px 0px 5px 0px;
+
+			}
+			.planlist li {
+				border: 1px solid #d9d9d9;
+				padding:10px 0px 10px 0px;
+				background-color: #ededed;
+			}
+			.planlist button {
+				padding: 5px 0px 5px 0px;
+				margin-top: 15px;
+
+			}
+
+		.plan5 {
+			width:250px;
+			border: 1px solid #d9d9d9;
+			float:left;
+			margin-right:10px;
+		}
+
+			.plan5head{
+				background-color: #45874b;
+				color: white;
+				/*text-align: center;*/
+				border: 1px solid #45874b;
+			}
+
+				.plan5 span{
+					font-size:75px;
+			}
+
+			/*.planlist{ 
+				text-align: center;
+			}
+	*/
+			/*.planlist ul {
+
+				font-size: 12px;
+				padding:5px 5px 5px 5px;
+			}
+
+			.planlist li {
+				padding: 5px 5px 5px 5px;
+			}*/
+
+		.plan25{
+			width: 250px;
+			border: 1px solid #d9d9d9;
+			float:left;
+			margin-right: 10px;
+			/*margin-bottom:15px;*/
+		}
+
+			.plan25head {
+				background-color: #34447f;
+				color: white;
+				text-align: center;
+				border: 1px solid red;
+			}
+
+				.plan25 span{
+					font-size:75px;
+				}
+
+			/*.planlist ul {
+				font-size: 12px;
+				padding:5px 5px 5px 5px;
+			}
+			.planlist li {
+				padding:5px 5px 5px 5px;
+			}*/
+
+		.plan45 {
+			width: 250px;
+			border: 1px solid #d9d9d9;
+			float:left;
+		}
+
+			.plan45head {
+				background-color: black;
+				color: white;
+				text-align: center;
+				border: 1px solid red;
+			}
+				.plan45 span {
+					font-size: 75px;
+				}
+
+				/*.planlist ul {
+					font-size: 12px;
+					padding:5px 5px 5px 5px;
+
+				}
+				.planlist li {
+					padding:5px 5px 5px 5px;
+				}*/
+
+			.planlist {
+				text-align: center;
+			}
+			#textinfo {
+				  display: inline-block;
+				  width: 850px;
+				  height: 325px;
+				  margin: 45px 75px 15px 75px;
+				  position:relative;
+				  top:120px;
+				  border: 1px solid green;
+				  font-size:12px;
+				/*margin-left: 60px
+		margin-right: 60px;
+	}*/
+				
+					/*box-sizing:600px;*/
+	}
+
+		.p1{
 			border: 1px solid red;
+			width: 350px;
+			height: 150px;
+			margin:5px 10px 0px 10px;
+			float: left;
 		}
-
-			.plan25 span{
-				font-size:75px;
-			}
-
-		.plan25list {
-			text-align: center;
-		}
-		.plan25list ul {
-			font-size: 14px;
-		}
-
-	.plan45 {
-		width: 250px;
-		border: 1px solid red;
-		float:left;
-	}
-
-		.plan45head {
-			background-color: black;
-			color: white;
-			text-align: center;
+		.p2 {
 			border: 1px solid red;
+			width:350px;
+			height: 150px;
+			margin:5px 10px 0px 10px;
+			float:left;
 		}
-			.plan45 span {
-				font-size: 75px;
-			}
 
-			.plan45list ul {
-				font-size: 14px;
-			}
-
-		.plan45list {
-			text-align: center;
+		.p3{
+			border: 1px solid red;
+			width: 350px;
+			height: 150px;
+			margin:5px 10px 0px 10px;
+			float: left;
 		}
-		#textinfo {
-			  display: inline-block;
-			  width: 850px;
-			  height: 600px;
-			  margin: 15px 75px 15px 75px;
-			  position:relative;
-			  top:120px;
-			  border: 1px solid green;
-			/*margin-left: 60px
-	margin-right: 60px;
-}*/
-			
-				/*box-sizing:600px;*/
-}
 
-	.p1{
-		border: 1px solid red;
-		width: 350px;
-		height: 250px;
-		margin:5px 10px 0px 10px;
-		float: left;
-	}
-	.p2 {
-		border: 1px solid red;
-		width:350px;
-		height: 250px;
-		margin:5px 10px 0px 10px;
-		float:left;
+		.p4{
+			border: 1px solid red;
+			width: 350px;
+			height: 150px;
+			margin:5px 10px 0px 10px;
+			float: left;
+		}
+
+	#footer { 
+  		 position: absolute;
+		 bottom: -80%;
+		 left: 0px;
+		 right: 0px;
+		 width: 100%;
+		 padding: 1rem;
+		 background-color: black;
+		 text-align: center;
+		 color: white;
+		  font-size:12px;
 	}
 
-	.p3{
-		border: 1px solid red;
-		width: 350px;
-		height: 250px;
-		margin:5px 10px 0px 10px;
-		float: left;
+	#footer span {
+		text-decoration: underline;
 	}
-
-	.p4{
-		border: 1px solid red;
-		width: 350px;
-		height: 250px;
-		margin:5px 10px 0px 10px;
-		float: left;
-	}
-
-footer { 
-	border: 1px solid red;
-	text-align: center;
-	padding: 15px;
-	margin: 10px;
-	clear:right;
 	
-	/*position: relative;
-  	bottom: 50px;*/
-  /*height: 70px;
-  width: 100%;*/
-	color: white;
-	background-color: black:;
-}
