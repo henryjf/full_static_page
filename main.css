@@ -9,37 +9,41 @@ body{
 }
 header {
 	margin: 5px;
-	border: 1px solid red;
 	font-size: 12px;
-
+	border:1px solid red;
 }
 
 label{
 	margin-left:10px;
 	padding-right:15px;
-	border: 1px solid red;
+	border:1px solid red;
 }
 
 img{
 	width: 1000px;
 	height: 300px;
-	border:1px soild red;
+	position: absolute;
+	top:25px;
+	border:1px solid red;
 }
 
 h2{
 	color:white;
-	position: absolute;
-	top: 100px;
-	right: 500px;
+	position: relative;
+	top: 75px;
 	text-align: center;
-	border: 1px solid red;
 	font-size: 35px;
+	border:1px solid red;
 }
 
 #plans {
 	width: 850px;
 	border: 1px solid red;
+	position: relative;
+	top: 150px;
 	margin: 45px 90px 45px 90px;
+	text-align: center;
+
 }
 
 #plans ul{
@@ -56,7 +60,8 @@ h2{
 		.plan5head{
 			background-color: #45874b;
 			color: white;
-			text-align: center;
+			/*text-align: center;*/
+			border: 1px solid #45874b;
 		}
 
 			.plan5 span{
@@ -82,6 +87,7 @@ h2{
 			background-color: #34447f;
 			color: white;
 			text-align: center;
+			border: 1px solid red;
 		}
 
 			.plan25 span{
@@ -105,6 +111,7 @@ h2{
 			background-color: black;
 			color: white;
 			text-align: center;
+			border: 1px solid red;
 		}
 			.plan45 span {
 				font-size: 75px;
@@ -119,48 +126,61 @@ h2{
 		}
 		#textinfo {
 			  display: inline-block;
-			  width: 800px;
-			  height: 800px;
+			  width: 850px;
+			  height: 600px;
 			  margin: 15px 75px 15px 75px;
+			  position:relative;
+			  top:120px;
 			  border: 1px solid green;
 			/*margin-left: 60px
 	margin-right: 60px;
 }*/
-				float: left;
+			
 				/*box-sizing:600px;*/
 }
 
-	/*.p1{
+	.p1{
 		border: 1px solid red;
+		width: 350px;
+		height: 250px;
+		margin:5px 10px 0px 10px;
 		float: left;
 	}
 	.p2 {
 		border: 1px solid red;
+		width:350px;
+		height: 250px;
+		margin:5px 10px 0px 10px;
 		float:left;
 	}
 
 	.p3{
 		border: 1px solid red;
+		width: 350px;
+		height: 250px;
+		margin:5px 10px 0px 10px;
 		float: left;
 	}
 
 	.p4{
 		border: 1px solid red;
+		width: 350px;
+		height: 250px;
+		margin:5px 10px 0px 10px;
 		float: left;
-	}*/
+	}
 
 footer { 
 	border: 1px solid red;
-	margin-top: 20px;
-	margin-left:10px;
-	padding: 30px;
 	text-align: center;
-	/*position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  width: 100%;
+	padding: 15px;
+	margin: 10px;
+	clear:right;
+	
+	/*position: relative;
+  	bottom: 50px;*/
+  /*height: 70px;
+  width: 100%;*/
 	color: white;
 	background-color: black:;
-*/
 }
