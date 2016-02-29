@@ -13,13 +13,11 @@ body{
 	header {
 		margin: 5px;
 		font-size: 12px;
-		border:1px solid red;
 	}
 
 	label{
 		margin-left:10px;
 		padding-right:15px;
-		border:1px solid red;
 	}
 
 	img{
@@ -27,7 +25,6 @@ body{
 		height: 300px;
 		position: absolute;
 		top:25px;
-		border:1px solid red;
 	}
 
 	h2{
@@ -36,12 +33,10 @@ body{
 		top: 75px;
 		text-align: center;
 		font-size: 35px;
-		border:1px solid red;
 	}
 
 	#plans {
 		width: 850px;
-		/*border: 1px solid red;*/
 		position: relative;
 		top: 150px;
 		margin: 45px 90px 45px 90px;
@@ -64,22 +59,24 @@ body{
 				background-color: #ededed;
 			}
 			.planlist button {
-				padding: 5px 0px 5px 0px;
+				padding: 6px 8px 6px 8px;
 				margin-top: 15px;
-
+				border:1px solid #c9c9c9;
+				border-radius: 15px;
+				background-color: white;
 			}
 
 		.plan5 {
 			width:250px;
 			border: 1px solid #d9d9d9;
 			float:left;
+			margin-top:30px;
 			margin-right:10px;
 		}
 
 			.plan5head{
 				background-color: #45874b;
 				color: white;
-				/*text-align: center;*/
 				border: 1px solid #45874b;
 			}
 
@@ -87,71 +84,39 @@ body{
 					font-size:75px;
 			}
 
-			/*.planlist{ 
-				text-align: center;
-			}
-	*/
-			/*.planlist ul {
-
-				font-size: 12px;
-				padding:5px 5px 5px 5px;
-			}
-
-			.planlist li {
-				padding: 5px 5px 5px 5px;
-			}*/
-
 		.plan25{
 			width: 250px;
 			border: 1px solid #d9d9d9;
 			float:left;
+			margin-top: 30px;
 			margin-right: 10px;
-			/*margin-bottom:15px;*/
 		}
 
 			.plan25head {
 				background-color: #34447f;
 				color: white;
-				text-align: center;
-				border: 1px solid red;
+				border:1px solid #34447f;
 			}
 
 				.plan25 span{
 					font-size:75px;
 				}
 
-			/*.planlist ul {
-				font-size: 12px;
-				padding:5px 5px 5px 5px;
-			}
-			.planlist li {
-				padding:5px 5px 5px 5px;
-			}*/
-
 		.plan45 {
 			width: 250px;
 			border: 1px solid #d9d9d9;
 			float:left;
+			margin-top: 30px;
 		}
 
 			.plan45head {
 				background-color: black;
 				color: white;
-				text-align: center;
-				border: 1px solid red;
+				border: 1px solid black;
 			}
 				.plan45 span {
 					font-size: 75px;
 				}
-
-				/*.planlist ul {
-					font-size: 12px;
-					padding:5px 5px 5px 5px;
-
-				}
-				.planlist li {
-					padding:5px 5px 5px 5px;
-				}*/
 
 			.planlist {
 				text-align: center;
@@ -163,43 +128,35 @@ body{
 				  margin: 45px 75px 15px 75px;
 				  position:relative;
 				  top:120px;
-				  border: 1px solid green;
 				  font-size:12px;
-				/*margin-left: 60px
-		margin-right: 60px;
-	}*/
-				
-					/*box-sizing:600px;*/
-	}
+				  letter-spacing: 1px
+			}
 
 		.p1{
-			border: 1px solid red;
 			width: 350px;
 			height: 150px;
 			margin:5px 10px 0px 10px;
 			float: left;
+
 		}
 		.p2 {
-			border: 1px solid red;
-			width:350px;
+			width: 350px;
 			height: 150px;
-			margin:5px 10px 0px 10px;
+			margin: 5px 10px 0px 10px;
 			float:left;
 		}
 
 		.p3{
-			border: 1px solid red;
 			width: 350px;
 			height: 150px;
-			margin:5px 10px 0px 10px;
+			margin: 5px 10px 0px 10px;
 			float: left;
 		}
 
 		.p4{
-			border: 1px solid red;
 			width: 350px;
 			height: 150px;
-			margin:5px 10px 0px 10px;
+			margin: 5px 10px 0px 10px;
 			float: left;
 		}
 
@@ -212,11 +169,12 @@ body{
 		 padding: 1rem;
 		 background-color: black;
 		 text-align: center;
-		 color: white;
-		  font-size:12px;
+		 color: #bcbcbc;
+		 font-size: 12px;
 	}
 
 	#footer span {
 		text-decoration: underline;
+		color: white;
 	}
 	
